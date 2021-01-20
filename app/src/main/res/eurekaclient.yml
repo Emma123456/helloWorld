@@ -7,6 +7,9 @@ server:
 spring:
   application:
     name: eurekaclient
+  zipkin:
+    sender:
+      type: web
   rabbitmq:
     host: localhost
     port: 5672
